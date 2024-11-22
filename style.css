@@ -1,0 +1,94 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cabecalho {
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.cabecalho a {
+    color: black;
+    text-decoration: none;
+}
+
+.cabecalho h1 {
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: underline;
+    font-size: 6ch;
+    margin-top: 0;
+    border: 2px solid black;
+}
+
+.menu {
+    margin-left: 7ch;
+}
+
+.menu a {
+    margin: 5ch;
+    font-size: 2ch;
+}
+
+.mural img {
+    width: 70vw;
+    max-height: 40vh;
+    margin-left: 21ch;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15%;
+}
+
+/* Estilo para a área da receita */
+.receita {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+}
+
+/* Estilo para a barra lateral */
+.lateral {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.lateral ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lateral ul li {
+    margin-bottom: 10px;
+}
+
+.lateral a {
+    text-decoration: none;
+    color: #333;
+}
+
+.lateral a:hover {
+    color: #007BFF;
+}
+
+/* Rodapé */
+.rodapé {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ccc;
+}
